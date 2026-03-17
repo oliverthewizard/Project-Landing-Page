@@ -1,0 +1,21 @@
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: #1f2937;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+}
+
+.cta-box {
+    background-color: #3882f6;
+}

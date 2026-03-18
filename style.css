@@ -69,8 +69,6 @@ button {
 
 .hero-right {
     display: flex;
-    background-color: gray;
-    color:#f9faf8;
     justify-content: center;
     align-items: center;
     width: 600px;
@@ -125,6 +123,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -139,7 +138,6 @@ button {
 .citation {
     display: flex;
     justify-content: right;
-    margin-right: 440px;
     font-size: 24px;
     margin-top: 0px;
     font-weight: 900;
@@ -201,4 +199,28 @@ button {
     align-items: center;
     font-size: 18px;
     color: #f4f1ec;
+}
+
+.crow {
+    width: 158px;
+    height: 158px;
+    border-radius: 10px;
+}
+
+.raven {
+    width: 158px;
+    height: 158px;
+    border-radius: 10px;
+}
+
+.magpie {
+    width: 158px;
+    height: 158px;
+    border-radius: 10px;
+}
+
+.chough {
+    width: 158px;
+    height: 158px;
+    border-radius: 10px;
 }

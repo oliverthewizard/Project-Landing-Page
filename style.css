@@ -119,7 +119,7 @@ button {
 
 .quote-section {
     background-color: #e5e7eb;
-    height: 340px;
+    height: 375px;
     color: #1f2937;
     display: flex;
     flex-direction: column;
@@ -144,10 +144,53 @@ button {
     font-weight: 900;
 }
 
-.footer {
-    background-color: #1f2937;
+.cta-section {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-box {
     background-color: #3882f6;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    gap: 150px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    justify-content: center;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0px;
+}
+
+.sign-up {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-top: 5px;
+}
+
+.cta-right {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.cta-button {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    background-color: #1f2937;
 }

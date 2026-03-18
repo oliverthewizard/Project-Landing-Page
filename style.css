@@ -77,6 +77,45 @@ body {
     height: 250px;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.info-items {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    align-items: center;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
 .quote-section {
     background-color: #e5e7eb;
 }
